@@ -1,0 +1,123 @@
+.g-signin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 150px;
+    border-radius: 30px !important;
+    border: none !important;
+    box-shadow: 0 0 5px 4px  !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: azure;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.8;
+    color: brown;
+}
+form {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    opacity: 0.8;
+    background: cadetblue;
+    color: aliceblue;
+}
+  .custom-file-input:hover::before {
+    background-color: brown;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  input.custom-file-input {
+    width: 200px;
+    cursor: pointer;
+}
+input[type="submit"] {
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background: brown;
+    color: aliceblue;
+    font-size: 18px;
+    height: 33px;
+    cursor: pointer;
+}
+.data {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.item {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+}
+.user {
+    height: 97vh;
+    background: steelblue;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+img {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+}
+.name {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.main {
+    width: 100%;
+}
+button.g-signout {
+    margin: 0 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 30px !important;
+}
